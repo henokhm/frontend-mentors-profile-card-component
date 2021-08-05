@@ -11,26 +11,21 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
 
     <title>Frontend Mentor | Profile card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
+    <div class="position-abs">
+      <img src="./images/bg-pattern-top.svg" alt="" class="bg-pattern-top" />
+    </div>
     <div class="card">
       <div class="card__cover-pic"></div>
-      <div class="card__profile-pic">
-        <img src="./images/image-victor.jpg" alt="Victor profile picture" />
-      </div>
+      <img
+        class="card__profile-pic"
+        src="./images/image-victor.jpg"
+        alt="Victor profile picture"
+      />
       <div class="card__user-details">
         <div>
           <span class="card__user-name">Victor Crest</span>
@@ -53,11 +48,12 @@
         </div>
       </div>
     </div>
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Henok Hailemariam</a>.
+    <div class="position-abs">
+      <img
+        src="./images/bg-pattern-bottom.svg"
+        alt=""
+        class="bg-pattern-bottom"
+      />
     </div>
   </body>
 </html>
